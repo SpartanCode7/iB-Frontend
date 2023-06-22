@@ -744,43 +744,9 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/api/ProductSlice/ProductSlice.js": {
+    "(app-client)/./src/components/molecules/Cart.jsx": {
       "*": {
-        "id": "(sc_client)/./src/app/api/ProductSlice/ProductSlice.js",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/api/ProductSlice/ProductSlice.js",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "api": {
-        "id": "(sc_client)/./src/app/api/ProductSlice/ProductSlice.js",
-        "name": "api",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "useGetPostsQuery": {
-        "id": "(sc_client)/./src/app/api/ProductSlice/ProductSlice.js",
-        "name": "useGetPostsQuery",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/organisms/Product/Product.js": {
-      "*": {
-        "id": "(sc_client)/./src/components/organisms/Product/Product.js",
+        "id": "(sc_client)/./src/components/molecules/Cart.jsx",
         "name": "*",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -788,7 +754,7 @@
         "async": false
       },
       "": {
-        "id": "(sc_client)/./src/components/organisms/Product/Product.js",
+        "id": "(sc_client)/./src/components/molecules/Cart.jsx",
         "name": "",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -796,8 +762,68 @@
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./src/components/organisms/Product/Product.js",
+        "id": "(sc_client)/./src/components/molecules/Cart.jsx",
         "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/organisms/Login/Login.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/organisms/Login/Login.jsx",
+        "name": "*",
+        "chunks": [
+          "app/admin/page:static/chunks/app/admin/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/organisms/Login/Login.jsx",
+        "name": "",
+        "chunks": [
+          "app/admin/page:static/chunks/app/admin/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/components/organisms/Login/Login.jsx",
+        "name": "default",
+        "chunks": [
+          "app/admin/page:static/chunks/app/admin/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/api/ProductSlice/ProductSlice.js": {
+      "*": {
+        "id": "(sc_client)/./src/app/api/ProductSlice/ProductSlice.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/api/ProductSlice/ProductSlice.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "api": {
+        "id": "(sc_client)/./src/app/api/ProductSlice/ProductSlice.js",
+        "name": "api",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "useGetPostsQuery": {
+        "id": "(sc_client)/./src/app/api/ProductSlice/ProductSlice.js",
+        "name": "useGetPostsQuery",
         "chunks": [
           "app/page:static/chunks/app/page.js"
         ],
@@ -826,6 +852,58 @@
         "name": "default",
         "chunks": [
           "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/page.js": {
+      "*": {
+        "id": "(sc_client)/./src/app/page.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/page.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/page.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/organisms/Product/Product.js": {
+      "*": {
+        "id": "(sc_client)/./src/components/organisms/Product/Product.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/organisms/Product/Product.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/components/organisms/Product/Product.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       }
@@ -2534,11 +2612,73 @@
       ],
       "async": false
     },
+    "/Users/abnoor/Desktop/Work/Js/Mern/iblooks/frontend/src/components/molecules/Cart.jsx": {
+      "id": "(app-client)/./src/components/molecules/Cart.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/abnoor/Desktop/Work/Js/Mern/iblooks/frontend/src/components/molecules/Cart.jsx#": {
+      "id": "(app-client)/./src/components/molecules/Cart.jsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/abnoor/Desktop/Work/Js/Mern/iblooks/frontend/src/components/molecules/Cart.jsx#default": {
+      "id": "(app-client)/./src/components/molecules/Cart.jsx",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/abnoor/Desktop/Work/Js/Mern/iblooks/frontend/src/components/organisms/Login/Login.jsx": {
+      "id": "(app-client)/./src/components/organisms/Login/Login.jsx",
+      "name": "*",
+      "chunks": [
+        "app/admin/page:static/chunks/app/admin/page.js"
+      ],
+      "async": false
+    },
+    "/Users/abnoor/Desktop/Work/Js/Mern/iblooks/frontend/src/components/organisms/Login/Login.jsx#": {
+      "id": "(app-client)/./src/components/organisms/Login/Login.jsx",
+      "name": "",
+      "chunks": [
+        "app/admin/page:static/chunks/app/admin/page.js"
+      ],
+      "async": false
+    },
+    "/Users/abnoor/Desktop/Work/Js/Mern/iblooks/frontend/src/components/organisms/Login/Login.jsx#default": {
+      "id": "(app-client)/./src/components/organisms/Login/Login.jsx",
+      "name": "default",
+      "chunks": [
+        "app/admin/page:static/chunks/app/admin/page.js"
+      ],
+      "async": false
+    },
+    "/Users/abnoor/Desktop/Work/Js/Mern/iblooks/frontend/globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/abnoor/Desktop/Work/Js/Mern/iblooks/frontend/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
     "/Users/abnoor/Desktop/Work/Js/Mern/iblooks/frontend/src/app/api/ProductSlice/ProductSlice.js": {
       "id": "(app-client)/./src/app/api/ProductSlice/ProductSlice.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -2546,7 +2686,7 @@
       "id": "(app-client)/./src/app/api/ProductSlice/ProductSlice.js",
       "name": "",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -2554,7 +2694,7 @@
       "id": "(app-client)/./src/app/api/ProductSlice/ProductSlice.js",
       "name": "api",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -2562,7 +2702,55 @@
       "id": "(app-client)/./src/app/api/ProductSlice/ProductSlice.js",
       "name": "useGetPostsQuery",
       "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/abnoor/Desktop/Work/Js/Mern/iblooks/frontend/src/app/layout.js": {
+      "id": "(app-client)/./src/app/layout.js",
+      "name": "*",
+      "chunks": [
         "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/abnoor/Desktop/Work/Js/Mern/iblooks/frontend/src/app/layout.js#": {
+      "id": "(app-client)/./src/app/layout.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/abnoor/Desktop/Work/Js/Mern/iblooks/frontend/src/app/layout.js#default": {
+      "id": "(app-client)/./src/app/layout.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/abnoor/Desktop/Work/Js/Mern/iblooks/frontend/src/app/page.js": {
+      "id": "(app-client)/./src/app/page.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/abnoor/Desktop/Work/Js/Mern/iblooks/frontend/src/app/page.js#": {
+      "id": "(app-client)/./src/app/page.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/abnoor/Desktop/Work/Js/Mern/iblooks/frontend/src/app/page.js#default": {
+      "id": "(app-client)/./src/app/page.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -2587,44 +2775,6 @@
       "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/abnoor/Desktop/Work/Js/Mern/iblooks/frontend/globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/abnoor/Desktop/Work/Js/Mern/iblooks/frontend/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/abnoor/Desktop/Work/Js/Mern/iblooks/frontend/src/app/layout.js": {
-      "id": "(app-client)/./src/app/layout.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/abnoor/Desktop/Work/Js/Mern/iblooks/frontend/src/app/layout.js#": {
-      "id": "(app-client)/./src/app/layout.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/abnoor/Desktop/Work/Js/Mern/iblooks/frontend/src/app/layout.js#default": {
-      "id": "(app-client)/./src/app/layout.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     }

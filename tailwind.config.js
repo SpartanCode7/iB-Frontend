@@ -13,6 +13,11 @@ module.exports = {
     fontFamily: {
         'primary': ['Montserrat Alternates', 'sans-serif']
     },
+    colors: {
+      primary: '#007bff',
+      secondary: '#000000',
+      white: '#ffffff'
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

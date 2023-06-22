@@ -1,12 +1,15 @@
 import PropTypes from 'prop-types'
 
 const Span = ({ children }) => {
+
+  const spanStyle = "text-secondary"
+
   return (
-    <span>{children}</span>
+    <span className={spanStyle}>{children}</span>
   )
 }
 
-Span.PropTypes = {
+Span.propTypes = {
     children: PropTypes.string.isRequired
 }
 

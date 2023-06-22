@@ -1,11 +1,33 @@
-import Image from "../Image/Image"
+import PropTypes from 'prop-types';
+// import Image from '../Image/Image';
 
-const Logo = () => {
+const Logo = ({ src, alt, href }) => {
   return (
-    <a href="#">
-        <Image src="#" alt="Logo" />
-    </a>
-  )
-}
+    <div>
+      {LogoData.map((item) => {
+        return (
+          <a className='w-[70px] block' key={item.href} href={item.href}>
+            <img src={item.src} alt={item.alt} />
+          </a>
+        )
+      })}
+    </div>
+  );
+};
 
-export default Logo
+Logo.propTypes = {
+  src: PropTypes.string,
+  alt: PropTypes.string,
+  href: PropTypes.string,
+};
+
+const LogoData = [
+  {
+    href: '#',
+    src: 'https://businessyield.com/wp-content/uploads/2022/12/google-logo.jpeg',
+    alt: 'logo'
+  }
+]
+
+export default Logo;
+

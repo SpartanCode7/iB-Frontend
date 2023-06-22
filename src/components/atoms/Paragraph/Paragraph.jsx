@@ -6,7 +6,7 @@ const Paragraph = ({ children }) => {
   )
 }
 
-Paragraph.PropTypes = {
+Paragraph.propTypes = {
     children: PropTypes.string.isRequired
 }
 
